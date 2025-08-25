@@ -1,100 +1,94 @@
-🎲 Flutter Dice Roller
-A simple yet elegant dice roller application built with Flutter that demonstrates fundamental Flutter concepts through a practical project.
+# 🎲 Flutter Dice Roller
 
-https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white
-https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
-📱 About the Project
-This Dice Roller app represents my journey learning Flutter development. It's a simple application that generates random dice rolls with a visually appealing interface featuring gradient backgrounds and smooth interactions.
+---
 
-🎯 Key Learning Outcomes
-Through building this app, I solidified my understanding of:
+## 📱 About the Project
 
-Widget Composition: Building UIs by combining basic Flutter widgets
+Flutter Dice Roller is a simple yet elegant dice rolling application built with Flutter. This app demonstrates fundamental Flutter concepts through a practical and interactive project. It generates random dice rolls, featuring a visually appealing interface with gradient backgrounds and smooth user interactions.
 
-State Management: Using StatefulWidget and setState() for dynamic UI updates
+This project was designed as a learning experience to solidify foundational Flutter skills in state management, widget composition, and asset handling.
 
-Project Organization: Structuring code across multiple files for maintainability
+---
 
-Asset Management: Properly including and referencing images in Flutter projects
+## 🎯 Key Learning Outcomes
 
-User Interaction: Handling button presses and responding to user input
+- **Widget Composition:** Building user interfaces by combining basic Flutter widgets.
+- **State Management:** Using `StatefulWidget` and `setState()` for dynamic UI updates.
+- **Project Organization:** Structuring code across multiple files for maintainability.
+- **Asset Management:** Properly including and referencing images and assets in Flutter projects.
+- **User Interaction:** Handling button presses and responding to user input.
+- **Layout Design:** Using `Column`, `Center`, and `SizedBox` widgets for layout.
 
-Layout Design: Using Column, Center, and SizedBox for UI layout
+---
 
-🛠️ Technical Implementation
-Project Structure
-text
+## 🛠️ Technical Implementation
+
+### Project Structure
+
 lib/
-├── main.dart          # App entry point
-├── gradient_container.dart  # Custom gradient background widget
-└── dice_roller.dart   # Dice rolling logic and UI
-Key Code Features
-Custom Gradient Container
-
-Implemented a reusable widget with configurable colors
-
-Learned about constructor functions and widget parameters
-
-State Management
-
-Used Random() from dart:math for random number generation
-
-Implemented setState() to trigger UI updates
-
-Dynamic Asset Loading
-
-Images change based on current dice value using string interpolation
-
-Proper asset configuration in pubspec.yaml
-
-🚀 Getting Started
-Prerequisites
-Flutter SDK installed
-
-Android Studio/VSCode with Flutter extension
-
-An emulator or physical device
-
-Installation
-Clone the repository
-
-Run flutter pub get to install dependencies
-
-Run flutter run to launch the app
-
-📸 App Preview
+├── main.dart # App entry point
+├── gradient_container.dart # Custom gradient background widget
+└── dice_roller.dart # Dice rolling logic and UI components
 
 
-🔧 Technical Details
-Framework: Flutter
+### Key Features
 
-Language: Dart
+- **Custom Gradient Container:** A reusable widget with configurable colors, implemented using constructor functions and widget parameters.
+- **State Management:** Uses Dart's `Random()` for generating dice rolls and `setState()` to update the UI dynamically.
+- **Dynamic Asset Loading:** Dice images change based on the current dice value using string interpolation, with proper asset configuration in `pubspec.yaml`.
 
-State Management: setState (built-in)
+---
 
-Design: Material Design
+## 🚀 Getting Started
 
-📚 What I Learned
-This project helped me understand:
+### Prerequisites
 
-The difference between Stateless and Stateful widgets
+- Flutter SDK installed
+- Android Studio or VSCode with Flutter extensions
+- An emulator or physical device connected
 
-How to create custom widgets in Flutter
+### Installation
 
-Proper project structure and code organization
+1. Clone the repository
+2. Run `flutter pub get` to install dependencies
+3. Run `flutter run` to launch the app on your device or emulator
 
-Handling user interactions with Buttons
+---
 
-Managing application state with setState()
+## 📸 App Preview
 
-Working with assets and images in Flutter
 
-🌟 Future Enhancements
-Potential improvements for this app:
 
-Add dice rolling animation
+---
 
-Roll history tracking
+## 🔧 Technical Details
 
-Sound effects and haptic feedback
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **State Management:** Built-in `setState()`  
+- **Design:** Material Design
+
+---
+
+## 📚 What I Learned
+
+- Differences between Stateless and Stateful widgets
+- Creating and using custom widgets
+- Proper project structure and code organization
+- Handling user interactions with buttons and gesture detectors
+- Managing application state with `setState()`
+- Working with assets and images in Flutter
+
+---
+
+## 🌟 Future Enhancements
+
+- Add dice rolling animation
+- Support for multiple dice
+- Roll history tracking
+- Sound effects and haptic feedback
+
+
+---
